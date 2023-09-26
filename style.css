@@ -60,6 +60,20 @@ h1 {
     position: absolute;
 }
 
+.tabs .active::before {
+    content: "";
+    width: 15%;
+    border-radius: 0.7rem;
+    height: 0.3rem;
+    background-color: rgb(83,49, 156);
+    position: absolute;
+    bottom: 2rem;
+    z-index: 2;
+    left: 25%;
+}
+
+
+
 
 
 
