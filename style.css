@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(233, 223, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: rgb(44, 44, 44);
+}
+
+h1 {
+    color: rgb(83, 49, 156);
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 900px;
+    
+}
