@@ -17,5 +17,53 @@ h1 {
     background-color: #fff;
     width: 100%;
     max-width: 900px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.3rem;   
 }
+
+
+.tabs {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(200, 175, 255);
+}
+
+.tabs p {
+    padding: 0.9rem;
+}
+
+.tabs p:hover {
+    color: rgb(83, 49, 156);
+    cursor: pointer;
+}
+
+.tabs p.active {
+    color: rgb(83, 49, 156);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
