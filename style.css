@@ -1,16 +1,16 @@
 body {
     background-color: rgb(233, 223, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 32px;
     color: rgb(44, 44, 44);
 }
 
 h1 {
-    color: rgb(83, 49, 156);
+    color: rgb(83, 49, 156)
 }
 
 .container {
@@ -21,14 +21,10 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 1.3rem;   
-    padding: 0 2rem 2rem 2rem;
-    position: relative;
+    border-radius: 20px;
 }
 
-
 .tabs {
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -36,11 +32,10 @@ h1 {
     text-transform: uppercase;
     font-weight: bold;
     color: rgb(200, 175, 255);
-    padding: 1rem;
 }
 
 .tabs p {
-    padding: 0.5rem;
+padding: 16px;
 }
 
 .tabs p:hover {
@@ -48,72 +43,9 @@ h1 {
     cursor: pointer;
 }
 
-.tabs p.active {
+.tabs  p.active {
     color: rgb(83, 49, 156);
 }
-
-.line {
-    height: 3px;
-    background-color: rgb(231, 231, 231);
-    width: 100%;
-    top: 6.1rem;
-    position: absolute;
-}
-
-.tabs .active::before {
-    content: "";
-    width: 12%;
-    border-radius: 0.7rem;
-    height: 0.3rem;
-    background-color: rgb(83,49, 156);
-    position: absolute;
-    bottom: 4.5rem;
-    z-index: 2;
-    left: 27%;
-}
-
-.toggle-wrapper {
-    display: flex;
-    margin-left: 3rem;
-    /* padding-top: 5rem; */
-}
-
-.toggle-wrapper img {
-    height: 2.5rem;
-    margin: 0 0.5rem;
-}
-
-.toggle {
-    background-color: rgb(83, 49, 156);
-    height: 2rem;
-    width: 11rem;
-    border-radius: 1.2rem;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0.2rem 0 1rem;
-    box-sizing: border-box;
-    align-items: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-
-.toggle span:first-of-type {
-    color: #fff;
-}
-
-.toggle span:last-of-type {
-    background-color: #fff;
-    color: rgb(83,49, 156);
-    padding: 0.1rem 1rem;
-    border-radius: 1.4rem;
-}
-
-
-
-
-
-
 
 
 
